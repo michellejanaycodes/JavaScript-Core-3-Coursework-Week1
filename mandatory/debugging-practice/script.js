@@ -46,7 +46,9 @@ function submit() {
     );
     check.checked = false;
     myLibrary.push(book);
-    console.log(check);
+    title.value = "";
+    author.value = "";
+    pages.value = "";
     render();
   }
 }
